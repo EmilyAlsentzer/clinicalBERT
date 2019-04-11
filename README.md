@@ -2,6 +2,10 @@
 ## Repository for Publicly Available Clinical BERT Embeddings Paper (NAACL Clinical NLP Workshop 2019)
 
 
-We are in the process of submitting Clinical BERT to [PhysioNet](https://physionet.org/). The model and code will be available very soon. 
+We are in the process of submitting Clinical BERT to [PhysioNet](https://physionet.org/).
 
+In the interim, models can be downloaded [here](https://www.dropbox.com/s/8armk04fu16algz/pretrained_bert_tf.tar.gz?dl=0), or via
 
+```
+wget -O pretrained_bert_tf.tar.gz https://www.dropbox.com/s/8armk04fu16algz/pretrained_bert_tf.tar.gz?dl=1
+```
