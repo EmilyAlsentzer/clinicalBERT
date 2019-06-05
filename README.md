@@ -11,3 +11,6 @@ wget -O pretrained_bert_tf.tar.gz https://www.dropbox.com/s/8armk04fu16algz/pret
 ```
 
 All models are finetuned from the Cased BERT-Base model. 
+
+
+To see an example of how to use clinical BERT for the Med NLI tasks, go to the `run_classifier.sh` script in the downstream_tasks folder.
