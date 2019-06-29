@@ -1,5 +1,5 @@
 # clinicalBERT
-Repository for Publicly Available Clinical BERT Embeddings Paper (NAACL Clinical NLP Workshop 2019)
+Repository for [Publicly Available Clinical BERT Embeddings](https://arxiv.org/abs/1904.03323) (NAACL Clinical NLP Workshop 2019)
 
 
 ## Download Clinical BERT
