@@ -3,21 +3,20 @@ Repository for Publicly Available Clinical BERT Embeddings Paper (NAACL Clinical
 
 
 ## Download Clinical BERT
-We are in the process of submitting Clinical BERT to [PhysioNet](https://physionet.org/).
 
-In the interim, the models can be downloaded [here](https://www.dropbox.com/s/8armk04fu16algz/pretrained_bert_tf.tar.gz?dl=0), or via
+The Clinical BERT models can be downloaded [here](https://www.dropbox.com/s/8armk04fu16algz/pretrained_bert_tf.tar.gz?dl=0), or via
 
 ```
 wget -O pretrained_bert_tf.tar.gz https://www.dropbox.com/s/8armk04fu16algz/pretrained_bert_tf.tar.gz?dl=1
 ```
 
-All models are finetuned from the Cased BERT-Base model. 
+`biobert_pretrain_output_all_notes_150000` corresponds to Bio+Clinical BERT, and `biobert_pretrain_output_disch_100000` corresponds to Bio+Discharge Summary BERT. Both models are finetuned from [BioBERT](https://arxiv.org/abs/1901.08746). 
 
 
 To see an example of how to use clinical BERT for the Med NLI tasks, go to the `run_classifier.sh` script in the downstream_tasks folder.
 
 ## Contact
-Please contact emilya@mit.edu if you have any questions.
+Please post a Github issue or contact emilya@mit.edu if you have any questions.
 
 ## Citation
 Please cite our arXiv paper:
