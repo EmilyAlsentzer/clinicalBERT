@@ -19,7 +19,7 @@ To reproduce the steps necessary to finetune BERT or BioBERT on MIMIC data, foll
 2. Run `create_pretrain_data.sh`
 3. Run `finetune_lm_tf.sh`
 
-Note: See issue #4 for ways to improve section splitting code. 
+Note: See issue [#4](https://github.com/EmilyAlsentzer/clinicalBERT/issues/4) for ways to improve section splitting code. 
 
 #### Downstream Tasks
 To see an example of how to use clinical BERT for the Med NLI tasks, go to the `run_classifier.sh` script in the downstream_tasks folder.
