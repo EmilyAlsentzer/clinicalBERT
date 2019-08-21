@@ -30,6 +30,8 @@ Please post a Github issue or contact emilya@mit.edu if you have any questions.
 ## Citation
 Please acknowledge the following work in papers or derivative software:
 
+Emily Alsentzer, John Murphy, William Boag, Wei-Hung Weng, Di Jin, Tristan Naumann, and Matthew McDermott. 2019. Publicly available clinical BERT embeddings. In Proceedings of the 2nd Clinical Natural Language Processing Workshop, pages 72-78, Minneapolis, Minnesota, USA. Association for Computational Linguistics. 
+
 ```
 @inproceedings{alsentzer-etal-2019-publicly,
     title = "Publicly Available Clinical {BERT} Embeddings",
