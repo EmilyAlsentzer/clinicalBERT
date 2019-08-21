@@ -28,12 +28,25 @@ To see an example of how to use clinical BERT for the Med NLI tasks, go to the `
 Please post a Github issue or contact emilya@mit.edu if you have any questions.
 
 ## Citation
-Please cite our arXiv paper:
+Please acknowledge the following work in papers or derivative software:
+
 ```
-@article{alsentzer2019publicly,
-  title={Publicly available clinical BERT embeddings},
-  author={Alsentzer, Emily and Murphy, John R and Boag, Willie and Weng, Wei-Hung and Jin, Di and Naumann, Tristan and McDermott, Matthew},
-  journal={arXiv preprint arXiv:1904.03323},
-  year={2019}
+@inproceedings{alsentzer-etal-2019-publicly,
+    title = "Publicly Available Clinical {BERT} Embeddings",
+    author = "Alsentzer, Emily  and
+      Murphy, John  and
+      Boag, William  and
+      Weng, Wei-Hung  and
+      Jindi, Di  and
+      Naumann, Tristan  and
+      McDermott, Matthew",
+    booktitle = "Proceedings of the 2nd Clinical Natural Language Processing Workshop",
+    month = jun,
+    year = "2019",
+    address = "Minneapolis, Minnesota, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/W19-1909",
+    doi = "10.18653/v1/W19-1909",
+    pages = "72--78"
 }
 ```
