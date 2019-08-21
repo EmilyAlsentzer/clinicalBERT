@@ -37,7 +37,7 @@ Please acknowledge the following work in papers or derivative software:
       Murphy, John  and
       Boag, William  and
       Weng, Wei-Hung  and
-      Jindi, Di  and
+      Jin, Di  and
       Naumann, Tristan  and
       McDermott, Matthew",
     booktitle = "Proceedings of the 2nd Clinical Natural Language Processing Workshop",
