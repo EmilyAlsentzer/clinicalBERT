@@ -22,7 +22,7 @@ To reproduce the steps necessary to finetune BERT or BioBERT on MIMIC data, foll
 Note: See issue [#4](https://github.com/EmilyAlsentzer/clinicalBERT/issues/4) for ways to improve section splitting code. 
 
 #### Downstream Tasks
-To see an example of how to use clinical BERT for the Med NLI tasks, go to the `run_classifier.sh` script in the downstream_tasks folder.
+To see an example of how to use clinical BERT for the Med NLI tasks, go to the `run_classifier.sh` script in the downstream_tasks folder. To see an example for NER tasks, go to the `run_i2b2.sh` script.
 
 ## Contact
 Please post a Github issue or contact emilya@mit.edu if you have any questions.
