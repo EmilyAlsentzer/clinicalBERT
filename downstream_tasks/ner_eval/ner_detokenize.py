@@ -1,5 +1,7 @@
-import argparse
+# Note that this code is adapted from the BioBERT github repo: 
+# https://github.com/guidoajansen/biobert/tree/87e70a4dfb0dcc1e29ef9d6562f87c4854504e97/biobert/biocodes
 
+import argparse
 import itertools
 
 parser = argparse.ArgumentParser(description='')

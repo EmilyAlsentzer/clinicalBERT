@@ -16,9 +16,10 @@ for EPOCHS in 2 3 4 ; do
             OUTPUT_DIR=/PATH/TO/OUTPUT/DIRECTORY #update this to the output directory you want
             mkdir -p $OUTPUT_DIR
 
-            #You can change the task_name to 'i2b2_2014', 'i2b2_2010', 'i2b2_2006', or 'i2b2_2012'
-            #Note that you may need to modify the DataProcessor code in `run_ner.py` to adapt to the format of your input
+            # You can change the task_name to 'i2b2_2014', 'i2b2_2010', 'i2b2_2006', or 'i2b2_2012'
+            # Note that you may need to modify the DataProcessor code in `run_ner.py` to adapt to the format of your input
             # If you want to use biobert, change the init_checkpoint to biobert_model.ckpt
+            # run_ner.py is adapted from kyzhouhzau's BERT-NER github and the BioBERT repo
             python run_ner.py \
             	--do_train=True \
             	--do_eval=True \
@@ -49,6 +50,7 @@ for EPOCHS in 2 3 4 ; do
                     OUTPUT_FILE=${EVAL_OUTPUT_DIR}/NER_result_conll_${MODE}.txt
 
                     #convert word-piece BERT NER results to CoNLL eval format
+                    #Code is adapted from the BioBERT github
                     python ner_eval/ner_detokenize.py \
                         --token_test_path=${OUTPUT_DIR}/${CV_ITER}_token_${MODE}.txt \
                         --label_test_path=${OUTPUT_DIR}/${CV_ITER}_label_${MODE}.txt \
@@ -56,7 +58,7 @@ for EPOCHS in 2 3 4 ; do
                         --tok_to_orig_map_path=${OUTPUT_DIR}/${CV_ITER}_tok_to_orig_map_${MODE}.txt \
                         --output_file=$OUTPUT_FILE
 
-                    #convert to i2b2 evaluation format
+                    #convert to i2b2 evaluation format (adapted from Cliner Repo)
                     python ner_eval/format_for_i2b2_eval.py \
                     --results_file $OUTPUT_FILE \
                     --output_gold_dir $EVAL_OUTPUT_DIR/$MODE/gold/ \
