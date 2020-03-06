@@ -1,12 +1,13 @@
 # clinicalBERT
 Repository for [Publicly Available Clinical BERT Embeddings](https://www.aclweb.org/anthology/W19-1909/) (NAACL Clinical NLP Workshop 2019)
 
-
-## Download Clinical BERT
+## Using Clinical BERT
 
 UPDATE: You can now use ClinicalBERT directly through the [transformers](https://github.com/huggingface/transformers)  library. Check out the [Bio+Clinical BERT](https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT) and [Bio+Discharge Summary BERT](https://huggingface.co/emilyalsentzer/Bio_Discharge_Summary_BERT) model pages for instructions on how to use the models within the Transformers library. 
 
-The Clinical BERT models can be downloaded [here](https://www.dropbox.com/s/8armk04fu16algz/pretrained_bert_tf.tar.gz?dl=0), or via
+## Download Clinical BERT
+
+The Clinical BERT models can also be downloaded [here](https://www.dropbox.com/s/8armk04fu16algz/pretrained_bert_tf.tar.gz?dl=0), or via
 
 ```
 wget -O pretrained_bert_tf.tar.gz https://www.dropbox.com/s/8armk04fu16algz/pretrained_bert_tf.tar.gz?dl=1
