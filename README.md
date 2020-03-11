@@ -14,6 +14,7 @@ wget -O pretrained_bert_tf.tar.gz https://www.dropbox.com/s/8armk04fu16algz/pret
 ```
 
 `biobert_pretrain_output_all_notes_150000` corresponds to Bio+Clinical BERT, and `biobert_pretrain_output_disch_100000` corresponds to Bio+Discharge Summary BERT. Both models are finetuned from [BioBERT](https://arxiv.org/abs/1901.08746). We specifically use the [BioBERT-Base v1.0 (+ PubMed 200K + PMC 270K)](https://github.com/naver/biobert-pretrained) version of BioBERT.
+
 `bert_pretrain_output_all_notes_150000` corresponds to Clinical BERT, and `bert_pretrain_output_disch_100000` corresponds to Discharge Summary BERT. Both models are finetuned from the cased version of BERT, specifically cased_L-12_H-768_A-12. 
 
 ## Reproduce Clinical BERT
