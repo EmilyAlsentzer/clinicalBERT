@@ -16,6 +16,7 @@ with open(sys.argv[1]) as f:
         phi_tags = re.findall(regex, line)
         for tag in phi_tags:
             line = line.replace(tag[0], '__phi__').strip()
+
         # Walk through sentence
         phi_ind = 0
         for w in line.split():
